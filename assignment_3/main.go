@@ -27,4 +27,9 @@ func main() {
 	r.DELETE("/books/:id", controllers.DeleteBook)
 
 	r.Run()
+
+	//http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
+	//	fmt.Fprintf(w, "Hello! This is KBTU home page")
+	//})
+	//http.ListenAndServe(":3000", nil)
 }
