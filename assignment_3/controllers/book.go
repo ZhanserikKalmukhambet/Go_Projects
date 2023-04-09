@@ -11,7 +11,7 @@ import (
 func GetBooks(c *gin.Context) {
 	var books []models.Book
 
-	initializers.DB.Find(&books)
+	initializers.DB.Find(&books) // Select * from books
 
 	if len(books) == 0 {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Book store is empty. No book added!"})
@@ -24,7 +24,7 @@ func GetBookByID(c *gin.Context) {
 	var book models.Book
 
 	id := c.Param("id")
-	initializers.DB.First(&book, id)
+	initializers.DB.First(&book, id) // Select * from books where id = id and store it to book variable
 
 	if book.ID == 0 {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "No such ID"})

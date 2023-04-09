@@ -4,7 +4,7 @@ FROM golang:1.19-alpine
 WORKDIR /app
 
 # Copy the source code and config file into the container at /app
-COPY . .
+COPY . /app
 
 # Build the Go app
 RUN go build -o main .
