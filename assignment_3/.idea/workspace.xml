@@ -12,20 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../assignment_1/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_1/sign-in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment_1/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment_1/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/bookstore.mCfKeQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a70c4a6f-e5c9-4068-8f71-e9a716bcfbd0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrate/migrate.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
