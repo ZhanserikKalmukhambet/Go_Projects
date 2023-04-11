@@ -3,12 +3,14 @@ package main
 import (
 	"github.com/ZhanserikKalmukhambet/assignment_3/controllers"
 	"github.com/ZhanserikKalmukhambet/assignment_3/initializers"
+	"github.com/ZhanserikKalmukhambet/assignment_3/models"
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
 	initializers.LoadEnvVariables()
 	initializers.ConnectDatabase()
+	initializers.DB.AutoMigrate(&models.Book{})
 }
 
 func main() {
@@ -26,5 +28,5 @@ func main() {
 
 	r.DELETE("/books/:id", controllers.DeleteBook)
 
-	r.Run(":3000")
+	r.Run()
 }

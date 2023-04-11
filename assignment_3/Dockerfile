@@ -1,16 +1,15 @@
-FROM golang:1.19-alpine
+FROM golang:latest
 
-# Set the working directory to /app
 WORKDIR /app
 
-# Copy the source code and config file into the container at /app
-COPY . /app
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
 
-# Build the Go app
+COPY . .
+
 RUN go build -o main .
 
-# Expose port 3000
-EXPOSE 3000
+EXPOSE 8080
 
-# Run the command to start the app with the config file
-CMD ["/app/main"]
+CMD ["./main"]
